@@ -21,5 +21,22 @@ Expert Assur'IA est une application Web de **RAG (Retrieval-Augmented Generation
 
 1. **Cloner le dépôt** :
    ```bash
-   git clone [https://github.com/VOTRE_PSEUDO/expert-assuria.git](https://github.com/VOTRE_PSEUDO/expert-assuria.git)
+   git clone https://github.com/benji705/expert-assuria.git
    cd expert-assuria
+   ```
+
+2. **Installer les dépendances** :
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configurer la clé Groq** :
+   ```bash
+   export GROQ_API_KEY="votre_clé"
+   ```
+
+4. **Lancer l'application** :
+   ```bash
+   python app.py
+   ```
+   Puis ouvrir http://localhost:5000

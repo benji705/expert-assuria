@@ -47,8 +47,8 @@ def home():
 
 from groq import Groq
 
-# Remplacez par votre clé Groq
-client_llm = Groq(api_key"Clé")
+# La clé est lue dans la variable d'environnement GROQ_API_KEY (ne jamais la mettre dans le code)
+client_llm = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 @app.route('/ask', methods=['POST'])
 def ask():
