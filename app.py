@@ -11,7 +11,7 @@ from haystack.components.preprocessors import DocumentSplitter
 app = Flask(__name__)
 
 # --- INITIALISATION ---
-file_name = "7a3b28ef.pdf"
+file_name = "contrat_assurance.pdf"
 print("🛡️ Démarrage du service Expert Assur'IA...")
 
 document_store = InMemoryDocumentStore()
